@@ -1,0 +1,31 @@
+{
+  "name": "isotope-data",
+  "version": "0.0.1",
+  "description": "Create a JSON containing information about element isotopes from reference data",
+  "keywords": [],
+  "files": [
+    "src"
+  ],
+  "author": "Luc Patiny",
+  "repository": "cheminfo-js/isotope-data",
+  "bugs": {
+    "url": "https://github.com/cheminfo-js/isotope-data/issues"
+  },
+  "homepage": "https://github.com/cheminfo-js/isotope-data",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter mocha-better-spec-reporter --recursive",
+    "build": "cheminfo build"
+  },
+  "devDependencies": {
+    "cheminfo-tools": "^1.5.0",
+    "mocha": "^2.5.1",
+    "mocha-better-spec-reporter": "^3.0.2",
+    "should": "^9.0.2"
+  },
+  "dependencies": {
+    "superagent": "^2.3.0",
+    "wikidata-sdk": "^4.0.6"
+  }
+}
