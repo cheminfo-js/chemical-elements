@@ -7,3 +7,8 @@ test('data size', () => {
     expect(data.groups.length).toBeGreaterThan(50);
 });
 
+
+test('getElementsObject', () => {
+    var elementsObject = data.getElementsObject();
+    expect(Object.keys(elementsObject).length).toBe(118);
+});

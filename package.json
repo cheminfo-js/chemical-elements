@@ -1,7 +1,7 @@
 {
   "name": "chemical-elements",
   "version": "0.0.1",
-  "description": "Create a JSON containing information about element isotopes from reference data",
+  "description": "JSON containing information about chemical elements and isotopes",
   "keywords": [],
   "files": [
     "src"

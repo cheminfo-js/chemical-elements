@@ -5,7 +5,7 @@
   [![David deps][david-image]][david-url]
   [![npm download][download-image]][download-url]
 
-Creates a JSON containing information about chemical element, isotopes and groups.
+JSON containing information about chemical element, isotopes and groups.
 
 ## Installation
 
@@ -15,7 +15,12 @@ $ npm install chemical-elements
 
 ```
 var {elements, groups} = require('chemical-elements');
+```
 
+You may also retrieve the elements as an object that allows a faster lookup
+```
+var elements = require('chemical-elements').getElementsObject();
+```
 
 ## License
 
