@@ -16,7 +16,7 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "jest",
-    "build": "cheminfo build",
+    "build": "cheminfo build --no-source-map",
     "eslint": "eslint src test",
     "eslint-fix": "npm run eslint -- --fix"
   },
