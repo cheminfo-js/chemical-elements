@@ -1,3 +1,4 @@
+symbol	name	mf
 Abu	2-Aminobutyric acid diradical	C4H7NO
 Acet	Acetyl	C2H3O
 Acm	Acetamidomethyl	C3H6NO
@@ -50,14 +51,14 @@ Hserp	Homoserine triradical	C4H6NO2
 Hyp	Hydroxyproline diradical	C5H7NO2
 Hypp	Hydroxyproline triradical	C5H6NO2
 Ile	Isoleucine diradical	C6H11NO
-Ivdde	1-[4,4-dimethyl-2,6-dioxocyclohexylidene)3-methylb	C14H21O2
+Ivdde	1-[4,4-dimethyl-2,6-dioxocyclohexylidene)-3-methylbutyl	C14H21O2
 Leu	Leucine diradical	C6H11NO
 Lys	Lysine diradical	C6H12N2O
 Lysp	Lysine triradical	C6H11N2O
 Mbh	4,4'-Dimethoxybenzhydryl	C15H15O2
 Me	Methyl	CH3
 Mebzl	4-Methylbenzyl	C8H9
-Meobzl	4-Methoxybenzyl1-[4,4-dimethyl-2,6-dioxocyclohexyl	C8H9O
+Meobzl	4-Methoxybenzyl	C8H9O
 Met	Methionine diradical	C5H9NOS
 Mmt	4-Methoxytrityl	C20H17O
 Mtc	2,2,5,7,8-pentamethylchroman-6-sulphonyl	C14H19O3S
@@ -91,7 +92,6 @@ Tbu	t-Butyl	C4H9
 Tbuo	t-Butoxy	C4H9O
 Tbuthio	t-Butylthio	C4H9S
 Tfa	Trifluoroacetyl	C2F3O
-Thi	beta-(2-thenyl)alanine	C7H7NOS
 Thr	Threonine diradical	C4H7NO2
 Thrp	Threonine triradical	C4H6NO2
 Tips	Triisopropylsilyl	C9H21Si
@@ -107,4 +107,3 @@ Valoh	beta-Hydroxyvaline diradical	C5H9NO2
 Valohp	beta-Hydroxyvaline triradical	C5H8NO2
 Xan	Xanthyl	C13H9O
 Z	Benzyloxycarbonyl	C8H7O2
-T	Tritium	[3H]
