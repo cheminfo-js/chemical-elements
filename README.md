@@ -1,17 +1,21 @@
-# isotope-data
+# chemical-elements
 
   [![NPM version][npm-image]][npm-url]
   [![build status][travis-image]][travis-url]
   [![David deps][david-image]][david-url]
   [![npm download][download-image]][download-url]
 
-Create a JSON containing information about element isotopes from reference data
+Creates a JSON containing information about chemical element, isotopes and groups.
 
 ## Installation
 
 ```
-$ npm install isotope-data
+$ npm install chemical-elements
 ```
+
+```
+var {elements, groups} = require('chemical-elements');
+
 
 ## License
 

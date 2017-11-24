@@ -1,5 +1,5 @@
 {
-  "name": "isotope-data",
+  "name": "chemical-elements",
   "version": "0.0.1",
   "description": "Create a JSON containing information about element isotopes from reference data",
   "keywords": [],
@@ -7,11 +7,11 @@
     "src"
   ],
   "author": "Luc Patiny",
-  "repository": "cheminfo-js/isotope-data",
+  "repository": "cheminfo-js/chemical-elements",
   "bugs": {
-    "url": "https://github.com/cheminfo-js/isotope-data/issues"
+    "url": "https://github.com/cheminfo-js/chemical-elements/issues"
   },
-  "homepage": "https://github.com/cheminfo-js/isotope-data",
+  "homepage": "https://github.com/cheminfo-js/chemical-elements",
   "license": "MIT",
   "main": "./src/index.js",
   "scripts": {
