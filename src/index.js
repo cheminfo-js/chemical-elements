@@ -3,7 +3,6 @@
 const elements = require('./elements.js');
 const groups = require('./groups.js');
 
-
 function getElementsObject() {
     var object = {};
     elements.forEach((e) => {
@@ -12,8 +11,17 @@ function getElementsObject() {
     return object;
 }
 
+function getGroupsObject() {
+    var object = {};
+    groups.forEach((e) => {
+        object[e.symbol] = e;
+    });
+    return object;
+}
+
 module.exports = {
     elements,
     groups,
-    getElementsObject
+    getElementsObject,
+    getGroupsObject
 };

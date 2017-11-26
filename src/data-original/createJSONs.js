@@ -32,6 +32,16 @@ fs.writeFileSync(__dirname + '/../elements.js', 'module.exports=' + JSON.stringi
 
 
 var groups = Papa.parse(fs.readFileSync(__dirname + '/groups.tsv') + '', {header: true}).data;
+// we will create an object for the elements
+for (let group of groups) {
+    let mf = group.mf;
+    let parts = mf.split(/(?=[A-Z+-])/);
+    group.elements = parts.map(part => ({
+        symbol: part.replace(/[0-9]+/, ''),
+        number: Number(part.replace(/[^0-9]/g, '') || 1)
+    }));
+}
+
 fs.writeFileSync(__dirname + '/../groups.js', 'module.exports=' + JSON.stringify(groups));
 
 
