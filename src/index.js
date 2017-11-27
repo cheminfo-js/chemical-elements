@@ -1,6 +1,6 @@
 'use strict';
 
-const elements = require('./elements.js');
+const elements = require('./elementsAndStableIsotopes.js');
 const groups = require('./groups.js');
 
 function getElementsObject() {

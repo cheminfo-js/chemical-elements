@@ -18,8 +18,8 @@ test('getGroupsObject', () => {
     expect(groupsObject.Ala).toEqual({
         elements:
             [
-                {'number': 3, 'symbol': 'C'},
-                {'number': 5, 'symbol': 'H'},
+                {number: 3, symbol: 'C'},
+                {number: 5, symbol: 'H'},
                 {number: 1, symbol: 'N'},
                 {number: 1, symbol: 'O'}
             ],

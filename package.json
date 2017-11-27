@@ -26,6 +26,7 @@
     "eslint-config-cheminfo": "^1.8.0",
     "eslint-plugin-no-only-tests": "^2.0.0",
     "jest": "^21.2.1",
+    "mf-parser": "0.1.0",
     "node-fetch": "^1.7.3",
     "papaparse": "^4.3.6",
     "wikidata-sdk": "^4.3.3"
