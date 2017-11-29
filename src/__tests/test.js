@@ -23,6 +23,8 @@ test('getGroupsObject', () => {
                 {number: 1, symbol: 'N'},
                 {number: 1, symbol: 'O'}
             ],
+        mass: 71.07801959624871,
+        monoisotopicMass: 71.03711378515,
         mf: 'C3H5NO',
         name:
         'Alainine diradical',

@@ -2,6 +2,7 @@
 
 const elements = require('./elementsAndStableIsotopes.js');
 const groups = require('./groups.js');
+const {ELECTRON_MASS} = require('./constants');
 
 function getElementsObject() {
     var object = {};
@@ -23,5 +24,6 @@ module.exports = {
     elements,
     groups,
     getElementsObject,
-    getGroupsObject
+    getGroupsObject,
+    ELECTRON_MASS
 };
