@@ -62,7 +62,7 @@ elementsAndStableIsotopes.forEach((e) => {
     elementsAndStableIsotopesObject[e.symbol] = e;
     e.symbol=undefined;
 });
-fs.writeFileSync(__dirname + '/../src/elementsAndStabeIsotopesObject.js', 'module.exports=' + JSON.stringify(elementsObject));
+fs.writeFileSync(__dirname + '/../src/elementsAndStableIsotopesObject.js', 'module.exports=' + JSON.stringify(elementsObject));
 
 
 var groups = Papa.parse(fs.readFileSync(__dirname + '/groups.tsv') + '', {header: true}).data;

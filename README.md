@@ -17,10 +17,22 @@ $ npm install chemical-elements
 var {elements, groups} = require('chemical-elements');
 ```
 
-You may also retrieve the elements as an object that allows a faster lookup
+You may also retrieve different files directly in order to spare place in dependant libraries
 ```
 var elements = require('chemical-elements').getElementsObject();
 ```
+
+
+
+ elements.js
+-rw-r--r--+ 1 lpatiny  staff  126909 27 Nov 15:49 elementsAndIsotopes.js
+-rw-r--r--+ 1 lpatiny  staff  125847 27 Nov 15:49 elementsAndIsotopesObject.js
+-rw-r--r--+ 1 lpatiny  staff    9344 27 Nov 15:49 elementsAndStabeIsotopesObject.js
+-rw-r--r--+ 1 lpatiny  staff   24840 27 Nov 15:49 elementsAndStableIsotopes.js
+-rw-r--r--+ 1 lpatiny  staff    9344 27 Nov 15:49 elementsObject.js
+-rw-r--r--+ 1 lpatiny  staff   24828 27 Nov 15:49 groups.js
+-rw-r--r--+ 1 lpatiny  staff   23856 27 Nov 15:49 groupsObject.js
+
 
 ## License
 
